@@ -1,0 +1,58 @@
+.sidebar{
+    background-color: var(--gray-700);
+    border-radius: 0.4rem;
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover{
+    height: 72px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile{
+    text-align: center;
+    margin-top: -36px;
+    color: var(--gray-200 );
+}
+
+.profile img{
+    height: 5rem;
+    /* padding: .3rem; */
+    border: 4px solid var(--gray-600);
+    outline: 2px solid var(--green-500);
+    border-radius: 8px ;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+ footer{
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem 2rem;
+}
+footer a{
+    color: var(--green-500);
+    padding: 14px 24px;
+    border: 2px solid var(--green-500);
+    border-radius: 8px;     
+    text-decoration: none;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.25rem;
+    transition: .2s ease-in-out;
+} 
+footer a:hover{
+    background-color: var(--green-500);
+    color: var(--white);
+    transition: .2s ease-in-out;
+}

@@ -1,0 +1,50 @@
+.comment {
+    display: flex;
+}
+.comment + .comment{
+    margin-top: 2rem;
+}
+.comment img{
+    height: 50px;
+    border-radius: 8px;
+}
+.comment .commentBody{
+    margin-left: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.comment .commentBody div{
+    background-color: var(--gray-600);
+    border-radius: 9px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.comment .deletar{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+
+.comment .deletar:hover{
+    cursor: pointer;
+    color: var(--white);
+}
+.comment .commentBody div p{
+    margin-top: 1rem;
+}
+.comment .like{
+    margin-top: .75rem;
+    display: flex;
+    align-items: center;
+}
+.comment .like:hover{
+    color: var(--green-500);
+    cursor: pointer;
+}
